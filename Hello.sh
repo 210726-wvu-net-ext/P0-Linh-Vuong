@@ -1,8 +1,10 @@
-#print top 3 movies of yours from the user
-echo 'Enter your top 3 movies'
-echo 'Movie 1 ' 
+echo "Hello World, I was wondering, whats your favorite movie?"
 read movie1
-#read -p 'Movie 1 ' movie1 
-read -p 'Movie 2 ' movie2 
-read -p 'Movie 3 ' movie3
-echo "Your top 3 movies are: $movie1, $movie2, $movie3"
+echo "NICE! Whats your 2nd favorite?"
+read movie2
+echo "Wow I like that movie too! Alright last one, whats your 3rd favorite?"
+read movie3
+echo "I hate that movie."
+echo "The user's favorite movies are $movie1 , $movie2 , and $movie3"
+echo "Thank you for sharing your favorite movies! Goodbye!"
+read end
